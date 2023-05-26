@@ -6,14 +6,27 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', function(e) {
       e.preventDefault();
   
-      console.log(username.value);
-      console.log(password.value);
-  
       if (username.value === 'admin' && password.value === 'admin') {
-        window.location.href = 'paginaCompras.html';
+          Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'Usuario aceptado',
+          showConfirmButton: false,
+          timer: 1500
+        })
+        
+        setTimeout(function() {
+            window.location.href = 'paginaCompras.html'
+          }, 3000);
       } else {
-        alert('Nombre de usuario o contraseña incorrectos. Por favor, inténtalo nuevamente.');
+        Swal.fire({
+          position: 'center',
+          icon: 'error',
+          title: 'Ocurrio un error en las credenciales',
+          showConfirmButton: false,
+          timer: 1500
+      
+        })
       }
-    });
-  });
+});
   

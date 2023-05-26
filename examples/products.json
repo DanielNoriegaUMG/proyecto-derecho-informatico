@@ -1,220 +1,330 @@
 [
   {
     "id": 1,
-    "title": "Producto 1",
-    "price": 487.99,
-    "description": "descripcion de producto 1",
+    "title": "Microsoft Office 365",
+    "price": 6.99,
+    "description": "Suite de productividad que incluye programas como Word, Excel, PowerPoint y Outlook para crear documentos, hojas de cálculo, presentaciones y administrar correos electrónicos.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/OIP.YcCj1LLVbCtde2V2mDqYqQAAAA?pid=ImgDet&w=320&h=320&rs=1",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 2,
-    "title": "Producto 2",
-    "price": 487.99,
-    "description": "descripcion de producto 1",
+    "title": "Adobe Creative Cloud",
+    "price": 20.99,
+    "description": "Colección de aplicaciones creativas, como Photoshop, Illustrator e InDesign, utilizadas para el diseño gráfico, edición de fotos y creación de contenido visual.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/R.6047c11335a20bcf79cfb108ec4afd99?rik=cV%2buII6C1EbfwQ&pid=ImgRaw&r=0",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 3,
-    "title": "Producto 3",
-    "price": 487.99,
-    "description": "descripcion de producto 1",
+    "title": "Norton Antivirus",
+    "price": 39.99,
+    "description": "Programa de seguridad informática que protege contra virus, malware y amenazas en línea, ofreciendo funciones de detección y protección en tiempo real.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/R.501db08e53db541e92d5c607ac56e792?rik=LKrfTJSyYl0SBA&pid=ImgRaw&r=0",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 4,
-    "title": "Producto 4",
-    "price": 487.99,
-    "description": "descripcion de producto 1",
+    "title": "McAfee Antivirus",
+    "price": 34.56,
+    "description": "Software de seguridad que proporciona protección contra virus, ransomware y otras amenazas cibernéticas, con características de seguridad adicionales como firewall y protección web.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/R.2f7c97cfa0bd26a60b5668e99ef3ea3a?rik=9FAWfiBIyOYSpA&pid=ImgRaw&r=0",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 5,
-    "title": "Producto 5",
-    "price": 487.99,
-    "description": "descripcion de producto 5",
+    "title": "Kaspersky Antivirus",
+    "price": 29.99,
+    "description": "Solución de seguridad que detecta y bloquea virus, ransomware y ataques cibernéticos, brindando protección en tiempo real y funciones de seguridad en línea.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/OIP.lhNZ_IH-GoW9WTbIFniXEAHaJy?pid=ImgDet&rs=1",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 6,
-    "title": "Producto 6",
-    "price": 487.99,
-    "description": "descripcion de producto 6",
+    "title": "Bitdefender Antivirus",
+    "price": 29.99,
+    "description": "Programa de seguridad que ofrece protección integral contra malware, ransomware y otras amenazas, con enfoque en el rendimiento del sistema y la privacidad.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/OIP.2esWGG9F-DLJPop9rm9oSgHaHa?pid=ImgDet&rs=1",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 7,
-    "title": "Producto 7",
-    "price": 487.99,
-    "description": "descripcion de producto 7",
+    "title": "Avast Antivirus",
+    "price": 49.99,
+    "description": "Software antivirus que protege contra malware, ransomware y phishing, con funciones adicionales como análisis de Wi-Fi y limpieza de PC.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/R.c6657a54927f18b693957001d62df057?rik=HWgVzgeKig1KTA&pid=ImgRaw&r=0",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 8,
-    "title": "Producto 8",
-    "price": 487.99,
-    "description": "descripcion de producto 8",
+    "title": "Trend Micro Antivirus",
+    "price": 29.95,
+    "description": "Solución de seguridad que combate amenazas en línea, bloquea ransomware y protege la privacidad en internet, con características de seguridad para redes sociales.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/OIP.BGi-LtgZhKRpbovGKkxQ6wHaHa?pid=ImgDet&rs=1",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 9,
-    "title": "Producto 9",
-    "price": 487.99,
-    "description": "descripcion de producto 9",
+    "title": "QuickBooks",
+    "price": 25.00,
+    "description": "Software de contabilidad y gestión financiera utilizado para realizar un seguimiento de ingresos y gastos, crear facturas, gestionar inventarios y realizar tareas contables esenciales para pequeñas empresas.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/R.460137dcafff9106141bdcdbf64d94c8?rik=t1EFAifpBIi7ZA&pid=ImgRaw&r=0",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 10,
-    "title": "Producto 10",
-    "price": 487.99,
-    "description": "descripcion de producto 10",
+    "title": "TurboTax",
+    "price": 120.00,
+    "description": "Programa de preparación de impuestos que ayuda a los usuarios a presentar declaraciones de impuestos de manera precisa y sencilla, brindando orientación paso a paso.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/R.e6386e0f6e56226c3bfa886914b9d8a5?rik=JcQWG%2blfPVw%2fiQ&pid=ImgRaw&r=0",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 11,
-    "title": "Producto 11",
-    "price": 487.99,
-    "description": "descripcion de producto 11",
+    "title": "Quicken",
+    "price": 356.78,
+    "description": "Software de gestión financiera personal utilizado para realizar un seguimiento de gastos, presupuestos y transacciones bancarias, ayudando a administrar las finanzas personales.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/R.ce110ff4d3f0cda79aaeca09438c35f0?rik=gSVvYMgYjR0FuQ&pid=ImgRaw&r=0",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 12,
-    "title": "Producto 12",
-    "price": 487.99,
-    "description": "descripcion de producto 12",
+    "title": "Final Cut Pro",
+    "price": 299.00,
+    "description": "Software de edición de video profesional para macOS, utilizado en la postproducción de películas, programas de televisión y videos, con funciones avanzadas de edición y efectos visuales.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/R.45502e509ed109f7da3c6cae92b4dd91?rik=oSXt7aB8NckUTw&pid=ImgRaw&r=0",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 13,
-    "title": "Producto 13",
-    "price": 487.99,
-    "description": "descripcion de producto 13",
+    "title": "Logic Pro:",
+    "price": 199.00,
+    "description": " Aplicación de producción musical para macOS que permite crear, grabar y producir música, ofreciendo una amplia gama de herramientas y efectos de audio.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/R.9db72404f7602f82a45a169d848b802c?rik=YsT%2ff2qclqgDgg&riu=http%3a%2f%2fcdn.cnngreece.gr%2fimages%2fnews%2f2017%2f06%2f22%2fLOGIC_Pro_Logo.png&ehk=tB7xpQjv8%2ffFiIZJ6QXiJbYXxKyYqq9o2TxOFeM%2bbNU%3d&risl=&pid=ImgRaw&r=0",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 14,
-    "title": "Producto 14",
-    "price": 487.99,
-    "description": "descripcion de producto 14",
+    "title": "Pro Tools",
+    "price": 29.99,
+    "description": "Software de producción musical utilizado en estudios de grabación profesionales y por músicos para grabar, editar y mezclar música y sonido.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/R.e1912919b33d251a1b5e89b7ca3d6896?rik=eFdRKkU8pESaCQ&pid=ImgRaw&r=0",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 15,
-    "title": "Producto 15",
-    "price": 487.99,
-    "description": "descripcion de producto 15",
+    "title": "AutoCAD",
+    "price": 1690.00,
+    "description": "Programa de diseño asistido por computadora (CAD) utilizado para crear diseños precisos en 2D y 3D, ampliamente utilizado en arquitectura, ingeniería y diseño industrial.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/OIP.NtnfFypQaxgGTMKzuriGOwHaKS?pid=ImgDet&w=600&h=834&rs=1",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 16,
-    "title": "Producto 16",
-    "price": 487.99,
-    "description": "descripcion de producto 16",
+    "title": "SketchUp ",
+    "price": 695,
+    "description": "Software de modelado 3D intuitivo utilizado para crear diseños y modelos en 3D, con aplicaciones en arquitectura, diseño de interiores y diseño de productos.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/OIP.bzKDTDpC-bNBxsZHgY14ZwHaGk?pid=ImgDet&rs=1",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 17,
-    "title": "Producto 17",
-    "price": 487.99,
-    "description": "descripcion de producto 17",
+    "title": "VMware",
+    "price": 150.00,
+    "description": "Plataforma de virtualización que permite ejecutar múltiples sistemas operativos en una sola máquina física, lo que facilita la creación y gestión de entornos virtuales.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://corporateit.cl/wp-content/uploads/2018/10/vmware-696x467.jpg",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 18,
-    "title": "Producto 18",
-    "price": 487.99,
-    "description": "descripcion de producto 18",
+    "title": "Parallels Desktop",
+    "price": 122.67,
+    "description": "Software de virtualización para macOS que permite ejecutar sistemas operativos Windows y otras aplicaciones de PC en una Mac simultáneamente.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/OIP.Hdno3rlj1Y75phXetCAWdQHaHa?pid=ImgDet&rs=1",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 19,
-    "title": "Producto 19",
-    "price": 487.99,
-    "description": "descripcion de producto 19",
+    "title": "WinRAR",
+    "price": 563.56,
+    "description": "Herramienta de compresión de archivos que permite crear y descomprimir archivos comprimidos en diferentes formatos, facilitando el almacenamiento y la transferencia de archivos.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/OIP.n2kZ24kMo7ra3X-MENByBwHaE8?pid=ImgDet&rs=1",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]
   },
   {
     "id": 20,
-    "title": "Producto 20",
-    "price": 487.99,
-    "description": "descripcion de producto 20",
+    "title": "WinZip",
+    "price": 234.34,
+    "description": "Software de compresión de archivos utilizado para comprimir y descomprimir archivos, ahorrando espacio de almacenamiento y facilitando el intercambio de archivos en línea.",
     "images": [
-      "https://picsum.photos/640/640?r=4561",
+      "https://th.bing.com/th/id/R.9fef497cfef5f63caf889307ee5234db?rik=3%2fTqHbPq7XK9%2bg&riu=http%3a%2f%2fruprograms.com%2fscr%2f36%2fwinzip%2bscreenshot%2bfor%2bblog.jpg&ehk=75SSsrGIF2iA8VkwYKwdFC1q%2fi9Xacf%2fCv5bndashao%3d&risl=&pid=ImgRaw&r=0",
+      "https://picsum.photos/640/640?r=7497",
+      "https://picsum.photos/640/640?r=4032"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Procesador Intel I3",
+    "price": 100.00,
+    "description": "Unidad central de procesamiento que ejecuta instrucciones y procesa datos en un sistema informático.",
+    "images": [
+      "https://th.bing.com/th/id/OIP.URLYrUmBv4wp53bba4wagAHaHa?pid=ImgDet&rs=1",
+      "https://picsum.photos/640/640?r=7497",
+      "https://picsum.photos/640/640?r=4032"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Tarjeta gráfica (GPU)",
+    "price": 200.00,
+    "description": "Componente encargado de renderizar y mostrar imágenes, videos y gráficos en una pantalla.",
+    "images": [
+      "https://th.bing.com/th/id/OIP.noGXfks77lqbDhS_t7QewgHaFl?pid=ImgDet&rs=1",
+      "https://picsum.photos/640/640?r=7497",
+      "https://picsum.photos/640/640?r=4032"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "RAM DDR4",
+    "price": 85.00,
+    "description": "Memoria de acceso aleatorio que almacena datos y programas en uso para un acceso rápido por parte del procesador.",
+    "images": [
+      "https://th.bing.com/th/id/R.e36b62b2a6c82c6dd9d91758d65465e4?rik=DSGoSoCOAXth%2bQ&pid=ImgRaw&r=0",
+      "https://picsum.photos/640/640?r=7497",
+      "https://picsum.photos/640/640?r=4032"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "RAM DDR3",
+    "price": 65.00,
+    "description": "Memoria de acceso aleatorio que almacena datos y programas en uso para un acceso rápido por parte del procesador.",
+    "images": [
+      "https://th.bing.com/th/id/R.50a29fa838a1f707c7a701fe2a9e79cf?rik=Sib%2byfl6okRl3Q&pid=ImgRaw&r=0",
+      "https://picsum.photos/640/640?r=7497",
+      "https://picsum.photos/640/640?r=4032"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Motherboard",
+    "price": 150.00,
+    "description": "Componente principal que conecta y permite la comunicación entre todos los demás componentes del hardware.",
+    "images": [
+      "https://th.bing.com/th/id/R.b3a421c082b2bf82cb5927a8fd3b414c?rik=1kxhlWQkhlpYOQ&pid=ImgRaw&r=0",
+      "https://picsum.photos/640/640?r=7497",
+      "https://picsum.photos/640/640?r=4032"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Ventiladores",
+    "price": 25.00,
+    "description": "Componentes utilizados para mantener el sistema y los componentes frescos, evitando el sobrecalentamiento.",
+    "images": [
+      "https://th.bing.com/th/id/R.0d694d9f6537c377b999096c3d2b34b1?rik=1Z%2fnebVZxqZliQ&pid=ImgRaw&r=0",
+      "https://picsum.photos/640/640?r=7497",
+      "https://picsum.photos/640/640?r=4032"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Refrigeracion liquida",
+    "price": 85.00,
+    "description": "Componentes utilizados para mantener el sistema y los componentes frescos, evitando el sobrecalentamiento.",
+    "images": [
+      "https://th.bing.com/th/id/R.f8294509ceda0d2f274dc260301b9f72?rik=%2b2wZpFazrgxRcQ&pid=ImgRaw&r=0",
+      "https://picsum.photos/640/640?r=7497",
+      "https://picsum.photos/640/640?r=4032"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Monitor",
+    "price": 205.00,
+    "description": "Componentes utilizados para mantener el sistema y los componentes frescos, evitando el sobrecalentamiento.",
+    "images": [
+      "https://th.bing.com/th/id/R.4b324e8f7f8b26b486ca7450e703b011?rik=NPvY%2bCLfsPLwLA&pid=ImgRaw&r=0",
+      "https://picsum.photos/640/640?r=7497",
+      "https://picsum.photos/640/640?r=4032"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Memoria USB",
+    "price": 30.00,
+    "description": "Tipo C, marca HP de 16 GB",
+    "images": [
+      "https://th.bing.com/th/id/R.829f951d45a8195f0f68f261fe645d7c?rik=SD16bD4T4pD2lw&pid=ImgRaw&r=0",
+      "https://picsum.photos/640/640?r=7497",
+      "https://picsum.photos/640/640?r=4032"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "ESET Node 32",
+    "price": 125.45,
+    "description": "",
+    "images": [
+      "https://th.bing.com/th/id/OIP.0Q9dw8KPrVeEXDXVGErFdwAAAA?pid=ImgDet&rs=1",
       "https://picsum.photos/640/640?r=7497",
       "https://picsum.photos/640/640?r=4032"
     ]

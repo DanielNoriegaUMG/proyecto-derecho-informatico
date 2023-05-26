@@ -286,36 +286,6 @@ function deleteItem(e) {
   e.stopPropagation();
 }
 
-
-// function deleteItem(e) {
-//     const eliminarItem = shoppingCart[e.target.getAttribute('id')];
-//     // console.log(eliminarItem.quantity);
-//     // console.log(eliminarItem);
-//     const compras = sessionStorage.getItem('misCompras');
-//     if(compras){
-//         let products = JSON.parse(compras);
-//         let findProduct = products.findIndex(product => product.id == eliminarItem.id);
-//         let removeQuantityProduct = sessionStorage.getItem('misCompras');
-//         console.log(removeQuantityProduct);
-//     }
-//         eliminarItem.quantity--; //eliminar un item
-//         // console.log(eliminarItem.quantity);
-//         removeCountShopping();
-
-//     if (eliminarItem.quantity === 0) {
-//         delete shoppingCart[e.target.getAttribute('id')];
-//         const item = JSON.parse(compras);
-//         const eliminarSessionStorage = item.findIndex(product => product.id == eliminarItem.id)
-//         // console.log(eliminarSessionStorage);
-//         item.splice(eliminarSessionStorage, 1);
-//         sessionStorage.setItem('misCompras', JSON.stringify(item));
-//         // console.log(shoppingCart);
-//     }
-//     showShopping();
-
-//     e.stopPropagation();
-// }
-
 function removeCountShopping() {
     items.textContent = `${items.textContent - 1}`;//actualizar numero de items comprados en el carrito (icono)
 }
