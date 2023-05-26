@@ -1,129 +1,16 @@
-# Node-API-REST
-- [Creando servidor con Express](#express)
-- [URL´s para peticiones http](#metodos)
+# Instalacion de dependencias
 
-<h2 id="express">Creando mi primer servidor con Express</h2>
-
-Para poder crear tu primer servidor con express debes tener instalado Node JS en tu ordenador.
-Te dejo el [link](https://nodejs.org/es) de descarga.
-Luego de la instalación de node crea una carpeta en tu ordenador en mi caso lo hare en _documentos/cursos/node-api-rest_ y dentro de esa carpeta creare un archivo _index.js_ que sera el principal.
-1. Iniciamos _npm_:
-
+- Instalación de dependencias de NodeJS
 ```bash
-npm init -y
+npm i
 ```
 
-2. Procedemos a instalar express y otras dependencias:
-
+- Correr programa como development
 ```bash
-npm i eslint eslint-config-prettier eslint-plugin-prettier pritter -D
+npm run dev
 ```
-__Nota:__ te recomiendo instalar _nodemon_ de manera global:
+
+- Correr programa en produccion
 ```bash
-npm i nodemon -g
+npm run start
 ```
-3. Añadimos un archivo _.gitignore_ que lo dejare [aqui](./.gitignore).
-4. Añadimos otros archivos de configuración para buenas prácticas:
-    - Crear archivo _.eslinttrc.json_ con el siguiente contenido:
-    ```json
-    {
-      "parserOptions": {
-        "ecmaVersion": 2018
-      },
-      "extends": [
-        "eslint:recommended",
-        "prettier"
-      ],
-      "env": {
-        "es6": true,
-        "node": true,
-        "jest": true
-      },
-      "rules": {
-      "no-console": "warn"
-      }
-    }
-    ```
-    - Crear archivo _.editorconfig_ con el siguiente contenido:
-    ```bash
-    [*]
-    charset = utf-8
-    indent_style = space
-    indent_size = 2
-    insert_final_newline = true
-    trim_trailing_whitespace = true
-
-    [*.js]
-    quote_type = single
-
-    [*.md]
-    max_line_length = off
-    trim_trailing_whitespace = false
-    ```
-5. Por ultimo creamo nuestro archivo _index.js_ con el siguiente codigo:
-
-  ```js
-  const express = require('express');
-  const data = require('./products.json');
-  const app = express(); //usando constante de express
-  const port = 3000;
-
-  // definiendo rutas
-  app.get('/', (request, response) => {
-    response.writeHead(200,{'Content-Type':'text/html'});
-    response.write("<h1>Login</h1>");
-    console.log(request.url);
-  })
-
-  app.listen(port, function(){
-    console.log(`Escuchando en: localhost:${port}/`);
-  });
-  ```
-6. Creamos nuestros scripts para correr el servidor, nos vamos al archivo _package.json_ en el apartado de _"scripts"_ colocamos lo siguiente:
-```json
-  "dev": "nodemon ./index.js",
-  "start": "node ./index.js",
-  "lint": "eslint"
-```
-7. Nos dirigimos a la terminal y escribimos lo siguiente para poder tener un servidor que se reinicie con cambios que hagamos automaticamente:
-  ```bash
-  npm run dev
-  ```
-
-Aparecera un mensaje como este:
-<div align="center">
-  <img src="./imgs/server-express.PNG">
-</div>
-9. Nos vamos a nuestro navegador y escribimos esto:
-
-<pre>localhost:3000</pre>
-<div align="center">
-  <img src="./imgs/url-express.PNG">
-</div>
-Y listo tenemos nuestro primer servido con _Express_
-
-<h2 id="metodos">URL´s para peticiones HTTP</h2>
-<h3 id="usuarios">Usuarios</h3>
-
-- [GET](#get)
-- [GET + PARAMETROS](#get-params)
-- [GET + PAGINACION](#get-pagination)
-- [POST](#post)
-- [UPDATE](#update)
-- [DELETE](#delete)
-
-
-Para poder obtener todos los datos de la API:
-<pre id="get">localhost:3000/api/v1/users</pre>
-
-Para poder buscar un usuario en especifico
-<pre id="get-params">localhost:3000/api/v1/users/ID_USUARIO</pre>
-
-Para poder crear un usuario nuevo
-<pre id="post">localhost:3000/api/v1/users</pre>
-
-Para actulizar un usuario:
-<pre id="post">localhost:3000/api/v1/users/ID_USUARIO</pre>
-
-Para eliminar un usuario:
-<pre id="delete">localhost:3000/api/v1/users/ID_USUARIO</pre>
