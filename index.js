@@ -10,6 +10,7 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static(path.join(__dirname, '/public'))); //ruta estatica
 
+
 routerApi(app);
 
 app.listen(process.env.PORT || PORT, function(){
