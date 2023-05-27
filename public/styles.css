@@ -87,13 +87,14 @@ nav {
 .desktop-menu {
     position: absolute;
     top: 60px;
-    background-color: var(--blue-primary);
+    background-color: var(--black);
     right: 60px;
     width: 100px;
     height: auto;
-    border: 1px solid var(--very-light-pink);
+    border: 1px solid var(--white);
     border-radius: 6px;
     padding: 20px 20px 0 20px;
+    color: #ffffff;
 }
 .inactive{
     display: none;
@@ -115,11 +116,10 @@ nav {
     border-top: 1px solid var(--very-light-pink);
 }
 .desktop-menu ul li:last-child a {
-    color: var(--hospital-green);
     font-size: var(--sm);
 }
 .desktop-menu ul li a {
-    color: var(--black);
+    color: var(--white);
     text-decoration: none;
     margin-bottom: 20px;
     display: inline-block;

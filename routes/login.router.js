@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-router.get('/signup', (request, response) => {
+router.get('/inicio-sesion', (request, response) => {
   response.writeHead(200, {'Content-Type':'text/html'});
   response.write('<h1>Login</h1>');
 });

@@ -1,0 +1,19 @@
+
+
+body{
+	background-image: url(../image/fondo1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed; 
+}
+	
+.formulario{
+	background:rgba(0,0,0,.1);
+	padding: 20px; 
+	border-radius: 10px;
+	box-shadow: 0 0 30px rgba(0, 0, ,0, 0.568); 
+	color: white;
+}
+.ingresar{
+	background: #222A3F;	
+}

@@ -21,7 +21,7 @@ let imgProduct = document.getElementById('description-product-img');
 let closeDetailProduct = document.getElementById('close');
 
 function pagar(){
-    window.location.href = "http://localhost:3000/compra.html";
+    window.location.href = "compra.html";
 }
 function textEmail() {
     //si esta abierto el detalle de productos, mandarlo a cerrar para que no afecte la vista

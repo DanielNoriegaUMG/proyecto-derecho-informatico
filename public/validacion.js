@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         
         setTimeout(function() {
-            window.location.href = 'paginaCompras.html'
+            window.location.href = 'locahost:3000/api/v1/shopping/paginaCompras';
           }, 3000);
       } else {
         Swal.fire({
