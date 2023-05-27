@@ -9,8 +9,3 @@ npm i
 ```bash
 npm run dev
 ```
-
-- Correr programa en produccion
-```bash
-npm run start
-```
