@@ -10,121 +10,121 @@
 <body>
 
   <div class="container my-5 pt-5">
-  <main>
-    <div class="py-5 text-center">
-      <img class="d-block mx-auto mb-4" src="imgs/logos/logo.jpeg" alt="" width="200" height="150">
-      <h2>Formulario de Datos</h2>
-      <p class="lead">Ingresa los datos que se te solitan a continuación</p>
-    </div>
-      <div class="col-md-7 col-lg-8 mx-auto">
-        <form class="needs-validation" novalidate>
-          <div class="row g-3">
-            <div class="col-sm-6">
-              <label for="firstName" class="form-label">Nombres</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Es necesario rellenar este campo
+    <main>
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="imgs/logos/logo.jpeg" alt="" width="200" height="150">
+        <h2>Formulario de Datos</h2>
+        <p class="lead">Ingresa los datos que se te solitan a continuación</p>
+      </div>
+        <div class="col-md-7 col-lg-8 mx-auto">
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">Nombres</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Es necesario rellenar este campo
+                </div>
               </div>
+
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Es necesario rellenar este campo
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="username" class="form-label">Nombre de usuario</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text">@</span>
+                  <input type="text" class="form-control" id="username" placeholder="Username" required>
+                <div class="invalid-feedback">
+                    Tu nombre de usuario es requerido
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="derecho_info@outlook.com">
+                <div class="invalid-feedback">
+                  Por favor ingresa un email valido
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="address" class="form-label">Direccion</label>
+                <input type="text" class="form-control" id="address" placeholder="palin, Escuintla" required>
+                <div class="invalid-feedback">
+                   Solo agregale cartones
+                </div>
+              </div>
+
+            <hr class="my-4">
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="save-info">
+              <label class="form-check-label" for="save-info">Acepto contrato de compra de software y hardaware de la tienda de Muelle Digital</label>
             </div>
 
-            <div class="col-sm-6">
-              <label for="lastName" class="form-label">Apellidos</label>
-              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
-              <div class="invalid-feedback">
-                Es necesario rellenar este campo
-              </div>
-            </div>
+            <hr class="my-4">
 
-            <div class="col-12">
-              <label for="username" class="form-label">Nombre de usuario</label>
-              <div class="input-group has-validation">
-                <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Username" required>
-              <div class="invalid-feedback">
-                  Tu nombre de usuario es requerido
+            <h4 class="mb-3">Payment</h4>
+
+            <div class="row gy-3">
+              <div class="col-md-6">
+                <label for="cc-name" class="form-label">Nombre de tarjeta</label>
+                <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                <small class="text-body-secondary">Full name as displayed on card</small>
+                <div class="invalid-feedback">
+                  Name on card is required
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <label for="cc-number" class="form-label">Numero de tarjeta</label>
+                <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                <div class="invalid-feedback">
+                  Credit card number is required
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <label for="cc-expiration" class="form-label">fecha de expiracion</label>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="27/08" required>
+                <div class="invalid-feedback">
+                    Expiration date required
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <label for="cc-cvv" class="form-label">CVV</label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                <div class="invalid-feedback">
+                  Security code required
                 </div>
               </div>
             </div>
 
-            <div class="col-12">
-              <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="derecho_info@outlook.com">
-              <div class="invalid-feedback">
-                Por favor ingresa un email valido
-              </div>
-            </div>
+            <hr class="my-4">
 
-            <div class="col-12">
-              <label for="address" class="form-label">Direccion</label>
-              <input type="text" class="form-control" id="address" placeholder="palin, Escuintla" required>
-              <div class="invalid-feedback">
-                 Solo agregale cartones
-              </div>
-            </div>
-
-          <hr class="my-4">
-
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="save-info">
-            <label class="form-check-label" for="save-info">Acepto contrato de compra de software y hardaware de la tienda de Muelle Digital</label>
-          </div>
-
-          <hr class="my-4">
-
-          <h4 class="mb-3">Payment</h4>
-
-          <div class="row gy-3">
-            <div class="col-md-6">
-              <label for="cc-name" class="form-label">Nombre de tarjeta</label>
-              <input type="text" class="form-control" id="cc-name" placeholder="" required>
-              <small class="text-body-secondary">Full name as displayed on card</small>
-              <div class="invalid-feedback">
-                Name on card is required
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <label for="cc-number" class="form-label">Numero de tarjeta</label>
-              <input type="text" class="form-control" id="cc-number" placeholder="" required>
-              <div class="invalid-feedback">
-                Credit card number is required
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="cc-expiration" class="form-label">fecha de expiracion</label>
-              <input type="text" class="form-control" id="cc-expiration" placeholder="27/08" required>
-              <div class="invalid-feedback">
-                Expiration date required
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="cc-cvv" class="form-label">CVV</label>
-              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-              <div class="invalid-feedback">
-                Security code required
-              </div>
-            </div>
-          </div>
-
-          <hr class="my-4">
-
-          <button class="w-100 btn btn-primary btn-lg" type="submit" id="submit">Continue to checkout</button>
-        </form>
+            <button class="w-100 btn btn-primary btn-lg" type="submit" id="submit">Realizar pago</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <footer class="my-5 pt-5 text-body-secondary text-center text-small">
-    <p class="mb-1">&copy; 2017–2023 Company Name</p>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a href="#">Privacy</a></li>
-      <li class="list-inline-item"><a href="#">Terms</a></li>
-      <li class="list-inline-item"><a href="#">Support</a></li>
-    </ul>
-  </footer>
-</div>
+    <footer class="my-5 pt-5 text-body-secondary text-center text-small">
+      <p class="mb-1">&copy; 2017–2023 Company Name</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Privacy</a></li>
+        <li class="list-inline-item"><a href="#">Terms</a></li>
+        <li class="list-inline-item"><a href="#">Support</a></li>
+      </ul>
+    </footer>
+  </div>
   
 
   <script src="https://kit.fontawesome.com/314db632b8.js" crossorigin="anonymous"></script>

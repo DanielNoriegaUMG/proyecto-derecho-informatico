@@ -1,69 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+                <title>
+                    Contrato de Compra
+                </title>
+                <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" rel="stylesheet">
+                </link>
+            </meta>
+        </meta>
+    </head>
+    <body>
+        <div class="container">
+             <div class="row d-flex align-items-center">
+              <h1 class="mt-5 text-center">
+                Contrato de Compra de Hardware y Software
+              </h1>
+            <div class="row mt-5">
+                <div class="col-md-6" id="clienteDatosMostrar">
+                    <h4>
+                        Comprador:
+                    </h4>
+                </div>
+                <div class="col-md-6">
+                    <h4>
+                        Vendedor:
+                    </h4>
+                    <p>
+                        Muelle Digital
+                    </p>
+                    <p>
+                        Primera avenida de las Americas,zona 12
+                    </p>
+                    <p>
+                        Palin, Escuintla, Guatemala
+                    </p>
+                    <p>
+                        muelle_digital@gmail.com
+                    </p>
+                    <p>
+                        3456-1243
+                    </p>
+                </div>
+            </div>
+            <h2 class="mt-5">2. Precio y Pago</h2>
+<p>
+    Aceptación de Términos y Condiciones
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contrato de Compra</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-</head>
+      Al aceptar estos Términos y Condiciones, el comprador se compromete a cumplir con las siguientes disposiciones:
+</p>
+<p>
+    <strong>
+        Pago de la cantidad acordada:
+    </strong>
+    El comprador se compromete a pagar la cantidad acordada de <strong id="montoPago"><em></em></strong> por los productos adquiridos. Este pago se realizará de acuerdo con los términos y condiciones de pago establecidos a continuación.
+</p>
+<p>
+    <strong>
+        Términos y condiciones de pago:
+    </strong>
+    Los términos y condiciones de pago para esta transacción serán los siguientes:
+</p>
+<ul>
+    <li>
+        <strong>
+            Plazos de pago:
+        </strong>
+        El resto del monto acordado deberá ser pagado en <strong>un solo pago</strong> Los plazos de pago deben ser respetados estrictamente para garantizar una transacción exitosa.
+    </li>
+    <li>
+        <strong>
+            Modalidades de pago:
+        </strong>
+        El comprador podrá realizar el pago mediante <strong>tarjeta de crédito y débito</strong> o <strong>pago por efectivo</strong>. Cada modalidad de pago estará sujeta a sus propias condiciones y requisitos.
+    </li>
+    <li>
+        <strong>
+            Compromiso de pago:
+        </strong>
+        Yo, <strong id="nombreContrato"><em></em></strong>, me comprometo a cumplir con los términos y condiciones de pago establecidos anteriormente. Reconozco que el incumplimiento de estos términos puede resultar en la cancelación del pedido y la imposibilidad de recibir los productos solicitados.
+    </li>
+    <li>
+        <strong>
+            Responsabilidad del comprador:
+        </strong>
+        El comprador será responsable de proporcionar información precisa y actualizada relacionada con los datos de facturación, envío y contacto. Cualquier error u omisión en dicha información que afecte el proceso de pago o la entrega de los productos será responsabilidad exclusiva del comprador.
+    </li>
+</ul>
+  <form action="#" style="display: flex; justify-content: center;">
+  <input type="checkbox" id="aceptarCheckbox" onclick="toggleSubmitButton()">
+  <button id="enviarButton" disabled class="btn btn-success" style="width: 150px; margin-left: 20px;">Convertir a PDF</button>
+</form>
+</div>
+</body>
+</html>
 
-<body>
-  <div class="container">
-    <h1 class="mt-5">Contrato de Compra de Hardware y Software</h1>
 
-    <div class="row mt-5">
-      <div class="col-md-6" id="clienteDatosMostrar">
-        <h4>Comprador:</h4>
-      
-      </div>
-      <div class="col-md-6">
-        <h4>Vendedor:</h4>
-        <p>
-          Muelle Digital<br>
-          Primera avenida de las Americas,zona 12<br>
-          Palin, Escuintla, Guatemala<br>
-          muelle_digital@gmail.com<br>
-          3456-1243
-        </p>
-      </div>
-    </div>
+<script crossorigin="anonymous" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+<script>
+  let checkbox = document.getElementById("aceptarCheckbox");
+  let enviarButton = document.getElementById("enviarButton");
 
-    <h2 class="mt-5">2. Precio y Pago</h2>
-    <p>
-      El Comprador se compromete a pagar al Vendedor la cantidad acordada de [monto en la moneda especificada] por los
-      productos adquiridos.
-    </p>
-    <p>
-      Los términos y condiciones de pago serán los siguientes: [detallar los términos de pago, como porcentaje de
-      anticipo, plazos, etc.].
-    </p>
+  function toggleSubmitButton() {
+    enviarButton.disabled = !checkbox.checked;
+  }
 
-  </div>
-
-  <!-- Agregar el enlace al archivo JS de Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
- <script>
   if (sessionStorage.getItem('cliente')) {
     const cliente = sessionStorage.getItem('cliente');
-    parse = JSON.parse(cliente)
+    const nombreContrato = document.getElementById('nombreContrato');
+    const montoPago = document.getElementById('montoPago');
+    const total = montoPago.firstElementChild;
+    const insertarNombre = nombreContrato.firstElementChild;
+    parse = JSON.parse(cliente);
     const clienteElement = document.getElementById('clienteDatosMostrar');
     const compradorHTML = `
-      <p>${parse.firstName}
-        ${parse.lastName}<br>
-        ${parse.username}<br>
-        ${parse.email}<br>
-        ${parse.address}<br>
-        ${parse.address}<br>
-        ${parse.address}<br>
-        ${parse.address}<br>
+      <p>${parse.firstName} ${parse.lastName}<br>
+        <p>${parse.username}</p>
+        <p>${parse.email}</p>
+        <p>${parse.address}</p>
       </p>
     `;
+    clienteElement.insertAdjacentHTML('beforeend', compradorHTML);
+    insertarNombre.textContent = `${parse.firstName}  ${parse.lastName}`;
+    // const finalPago = sessionStorage.getItem('total');
+    // const format = JSON.parse(finalPago);
+    total.textContent =  sessionStorage.getItem('total');
 
-clienteElement.insertAdjacentHTML('beforeend', compradorHTML);
+    document.getElementById("enviarButton").addEventListener("click", function(e) {
+      e.preventDefault();
+      // Crea un objeto jsPDF
+      var doc = new jsPDF();
 
+      // Obtiene el contenido HTML que se desea convertir a PDF
+      var content = document.documentElement;
+
+      // Convierte el contenido HTML a PDF
+      doc.fromHTML(content, 15, 15, {
+        width: 180
+      });
+
+      // Guarda el archivo PDF
+      doc.save("contrato-muelle-digital.pdf");
+    });
   }
 </script>
 
-</body>
-</html>
